@@ -6,7 +6,7 @@
 /*   By: acamelo <acamelo@student.42madrid.com>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/02/13 12:47:50 by acamelo           #+#    #+#             */
-/*   Updated: 2026/02/16 18:47:00 by acamelo          ###   ########.fr       */
+/*   Updated: 2026/07/13 16:15:47 by acamelo          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,9 +25,7 @@ int	ft_str_is_alpha(char *str)
 			a++;
 		}
 		else
-		{
 			return (0);
-		}
 	}
 	return (1);
 }
