@@ -6,7 +6,7 @@
 /*   By: acamelo <acamelo@student.42madrid.com>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/02/13 11:23:32 by acamelo           #+#    #+#             */
-/*   Updated: 2026/07/13 16:20:36 by acamelo          ###   ########.fr       */
+/*   Updated: 2026/07/13 16:20:58 by acamelo          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,7 +20,7 @@ char	*ft_strcpy(char *dest, char *src)
 	while (src[i] != '\0')
 	{
 		dest[i] = src[i];
-		a++;
+		i++;
 	}
 	dest[i] = '\0';
 	return (dest);
