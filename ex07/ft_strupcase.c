@@ -6,7 +6,7 @@
 /*   By: acamelo <acamelo@student.42madrid.com>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/02/13 12:47:50 by acamelo           #+#    #+#             */
-/*   Updated: 2026/02/16 18:21:10 by acamelo          ###   ########.fr       */
+/*   Updated: 2026/07/13 16:19:40 by acamelo          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,9 +20,7 @@ char	*ft_strupcase(char *str)
 	while (str[i] != '\0')
 	{
 		if (str[i] >= 97 && str[i] <= 122)
-		{
 			str[i] = str[i] - 32;
-		}
 		i++;
 	}
 	return (str);
