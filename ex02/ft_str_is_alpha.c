@@ -6,7 +6,7 @@
 /*   By: acamelo <acamelo@student.42madrid.com>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/02/13 12:47:50 by acamelo           #+#    #+#             */
-/*   Updated: 2026/07/13 16:15:47 by acamelo          ###   ########.fr       */
+/*   Updated: 2026/07/13 16:16:24 by acamelo          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,9 +21,7 @@ int	ft_str_is_alpha(char *str)
 	{
 		if ((str[a] >= 'a' && str[a] <= 'z')
 			|| (str[a] >= 'A' && str[a] <= 'Z'))
-		{
 			a++;
-		}
 		else
 			return (0);
 	}
