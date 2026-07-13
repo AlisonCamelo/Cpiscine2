@@ -6,7 +6,7 @@
 /*   By: acamelo <acamelo@student.42madrid.com>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/02/13 12:47:50 by acamelo           #+#    #+#             */
-/*   Updated: 2026/02/16 10:14:41 by acamelo          ###   ########.fr       */
+/*   Updated: 2026/07/13 16:18:34 by acamelo          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,13 +20,9 @@ int	ft_str_is_printable(char *str)
 	while (str[a] != '\0')
 	{
 		if (str[a] >= 32 && str[a] <= 126)
-		{
 			a++;
-		}
 		else
-		{
 			return (0);
-		}
 	}
 	return (1);
 }
