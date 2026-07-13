@@ -6,7 +6,7 @@
 /*   By: acamelo <acamelo@student.42madrid.com>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/02/13 12:47:50 by acamelo           #+#    #+#             */
-/*   Updated: 2026/02/16 10:12:13 by acamelo          ###   ########.fr       */
+/*   Updated: 2026/07/13 16:18:09 by acamelo          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,19 +14,15 @@
 
 int	ft_str_is_uppercase(char *str)
 {
-	int	a;
+	int	i;
 
-	a = 0;
-	while (str[a] != '\0')
+	i = 0;
+	while (str[i] != '\0')
 	{
-		if (str[a] >= 'A' && str[a] <= 'Z')
-		{
-			a++;
-		}
+		if (str[i] >= 'A' && str[i] <= 'Z')
+			i++;
 		else
-		{
 			return (0);
-		}
 	}
 	return (1);
 }
